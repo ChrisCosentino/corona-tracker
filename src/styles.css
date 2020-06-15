@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+table, tr, td, th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.map{
+    height: 100vh;
+}
+
+.map:hover{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* background-color: red; */
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    background-color: white;
+    z-index: 10;
+}
+
+.nav-links{
+    /* height: 40px; */
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 0px 10px;
+}
+
+section{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#new{
+    background-color: #f3f3f3;
+    padding-top: 40px;
+    height: 100vh;
+}
+#total{
+    background-color: #F0F0F0;
+    padding-top: 40px;
+    height: 100vh;
+}
+
+#linechart{
+    /* display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    
+    height: 40vh;
+}
+
+#barchart{
+    height: 40vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+}
+
+#title{
+    text-decoration: none;
+    color: black;
+}
+
+#map{
+    padding-top: 40px;
+}
+
+.github-icon{
+    margin-right: 30px;
+    margin-left: 30px;
+    color: black;
+    
+}
+
+#icon{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+
