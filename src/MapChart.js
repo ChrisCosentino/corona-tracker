@@ -6,7 +6,6 @@ import {
   Geography
 } from "react-simple-maps";
 
-import { readRemoteFile } from 'react-papaparse';
 import axios from 'axios';
 
 const geoUrl =
